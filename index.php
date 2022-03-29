@@ -88,11 +88,11 @@ height: auto;}
 <body>
 
 <div id="content">
-<div id="header">
-
-<h1>Pharmacy Management System</h1>
-</div>
-<div id="main">
+	<div id="header">
+		<h1>Welcome to PHP</h1>
+	</div>
+	
+	<div id="main">
 
   <section class="container">
   
@@ -117,10 +117,8 @@ height: auto;}
     </div>
     </section>
 </div>
-<div id="footer" align="Center"> </div>
 </div>
 
 </body>
 </html>
 LOGIN;
-
