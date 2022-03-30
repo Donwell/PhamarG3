@@ -86,37 +86,39 @@ height: auto;}
 
 </head>
 <body>
+<div id="image">
+	<img src="images/php_intro.png">
+	<h1>People Health Pharmacy</h1>
+</div>
 
 <div id="content">
 	<div id="header">
-		<h1>Welcome to PHP</h1>
+		<h1>Welcome to <a style="color:#00b3fe">PHP<a> <a style="color: #01edc9;">SRePS<a></h1>
 	</div>
 	
 	<div id="main">
+		<h1>Sign In</h1>
+  			<section class="container">
+     			<div class="login">
+      				<!--<h1><center>Login here</center></h1>-->
+	  				$message
+	  				<form method="post" action="index.php">
+						<p>User Name<input style="border:2px solid" type="text" name="username" value="" placeholder="Username" required></p>
+        				<p>Password<input style="border:2px solid" type="password" name="password" value="" placeholder="Password" required></p>
+						<p><select style="border:2px solid" name="position">
+							<option>Login as......</option>
+							<option>Admin</option>
+							<option>Manager</option>
+							<option>Pharmacist</option>
+							<option>Cashier</option>
+						</select></p>
 
-  <section class="container">
-  
-     <div class="login">
-	 <img src="images/ulg.png">
-      <!--<h1><center>Login here</center></h1>-->
-	  $message
-	  <form method="post" action="index.php" align="center" >
-	  
-		<p><input type="text" name="username" value="" placeholder="Username" required></p>
-        <p><input type="password" name="password" value="" placeholder="Password" required></p>
-		<p><select name="position">
-		<option>Login as......</option>
-			<option>Admin</option>
-			<option>Manager</option>
-			<option>Pharmacist</option>
-			<option>Cashier</option>
-			
-			</select></p>
-        <p class="submit"><input type="submit" name="submit" value="Login"></p>
-      </form>
-    </div>
-    </section>
-</div>
+        				<p class="submit"><input type="submit" name="submit" value="Login"></p>
+      				</form>
+    			</div>
+    		</section>
+	</div>
+	<div id="footer">@ 2022 GROUP_3 | All rights reserved</div>
 </div>
 
 </body>
