@@ -19,7 +19,7 @@ body {
 #header {
   /* width: 900px; */
   height: 96px;
-  background: #62737b;
+  background: #00B3FE;
 }
 #header h1 {
   margin: 0px;
@@ -37,7 +37,7 @@ body {
   float: left;
   width: 200px;
   height: 501px;
-  background: #62737b;
+  background: #00B3FE;
   /* border-right: solid 2px blue; */
 }
 
@@ -93,7 +93,7 @@ html > body #button li a {
 #footer {
   /* width: 900px; */
   height: 55px;
-  background: #62737b;
+  background: #00B3FE;
   clear: all;
   /* border-top: solid 1px rgb(235, 235, 235); */
 }
